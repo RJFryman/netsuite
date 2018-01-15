@@ -20,7 +20,7 @@ module NetSuite
 
       record_refs :custom_form, :owner, :rec_type
 
-      read_only_fields :custrecord_material_tflow_prod_queue
+      read_only_fields :custrecord_material_tflow_prod_queue, :custrecord_production_finishing_top, :custrecord_production_finishing_bottom, :custrecord_production_finishing_left, :custrecord_production_finishing_right
 
       attr_reader :internal_id
       attr_accessor :external_id
